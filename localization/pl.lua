@@ -185,9 +185,9 @@ return {
         } or {},
         Partner = {
             pnr_aij_simply = {
-                name = "Simply",
+                name = "Prosto",
                 text = {
-                    "Gains {C:mult}+#1#{} Mult at",
+                    "D {C:mult}+#1#{} Mult at",
                     "end of round",
                     "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
                 },
@@ -198,64 +198,65 @@ return {
                 },
             },
             pnr_aij_fourwarning = {
-                name = "Fourwarning",
+                name = "Czterostrzerzenie",
                 text = {
-                    "Gains {C:chips}+#1#{} Chips if",
-                    "discard contains a {C:attention}4",
-                    "{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)",
+                    "Ten partner zdobywa {C:chips}+#1#{} żet. jeśli",
+                    "zrzutka zawiera kartę {C:attention}4",
+                    "{C:inactive}(obecnie {C:chips}+#2#{C:inactive} żet.)",
                 },
                 unlock={
-                    "Win a run with",
-                    "{C:attention}Simple Simon{} on",
-                    "{C:attention}Gold Stake{} difficulty",
+                    "Wygraj podejście z",
+                    "{C:attention}Prostym Simonem{} na",
+                    "{C:attention}złotej stawcę{}",
                 },
             },
             pnr_aij_nellie = {
                 name = "Nellie",
                 text = {
-                    "{C:dark_edition}Negative{} Jokers are",
-                    "{C:attention}#1#X{} more common",
+                    "{C:dark_edition}Negatywne{} jokery są",
+                    "{C:attention}#1# razy{} częstsze",
                 },
                 unlock={
-                    "Win a run with",
-                    "{C:attention}Negative Nancy{} on",
-                    "{C:attention}Gold Stake{} difficulty",
+                    "Wygraj podejście z",
+                    "{C:attention}negatywną Nancy{} na",
+                    "{C:attention}złotej stawcę{}",
                 },
             },
             pnr_aij_scratch = {
-                name = "Scratch",
+                name = "Podrapanie",
                 text = {
-                    '{C:attention}Retriggers{} leftmost',
-                    '{C:attention}#1#{} rightmost Joker',
-                    'on odd {C:attention}rounds'
+                    '{C:attention}Aktywuje ponownie{} najbardziej',
+					'wysunięty na lewo {C:attention}#1#{} najbardziej'
+                    'wysunięty na prawo joker',
+                    'na nieparzystych {C:attention}rundach'
                 },
                 unlock={
-                    "Win a run with",
-                    "{C:attention}Doodle{} on",
-                    "{C:attention}Gold Stake{} difficulty",
+                    "Wygraj podejście z",
+                    "{C:attention}bazgrołą{} na",
+                    "{C:attention}złotej stawce{}",
                 },
             },
             pnr_aij_banger = {
                 name = "Banger",
                 text = {
-                    'Rerolls cost {C:money}$#1#{} less'
+                    'Ponowne rzuty kosztują {C:money}#1#${} mniej'
                 },
                 unlock={
-                    "Win a run with",
-                    "{C:attention}Silly Sausage{} on",
-                    "{C:attention}Gold Stake{} difficulty",
+                    "Wygraj podejście z",
+                    "{C:attention}głupią parówką{} na",
+                    "{C:attention}złotej stawce{}",
                 },
             },
             pnr_aij_flub = {
                 name = "Flub",
                 text = {
-                    '{C:attention}Eternal{} Jokers are',
-                    '{C:money}#1#{}'
+                    '{C:attention}Wieczne{} jokery kosztują',
+                    '{C:money}#1#${}'
                 },
                 unlock={
-                    "Win a run with",
-                    "{C:attention}Mistake{} on",
-                    "{C:attention}Gold Stake{} difficulty",
+                    "Wygraj podejście z",
+                    "{C:attention}pomyłką{} na",
+                    "{C:attention}złotej stawce{}",
                 },
             },
         },
@@ -1510,7 +1511,7 @@ return {
                     "of this Joker by {C:money}$#1#{}"
                 },
             },
-            j_aij_bad_apple = { 
+            j_aij_bad_apple = { doodle
                 name = "Bad Apple", 
                 text = { 
                     "This Joker gains {X:mult,C:white}X#2#{} Mult",

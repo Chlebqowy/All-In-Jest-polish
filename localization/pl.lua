@@ -113,63 +113,63 @@ return {
     descriptions = {
         Back = {
             b_aij_fabled = {
-                name = 'Fabled Deck',
+                name = 'Legendarna talia',
                 text = {
-                    '{C:legendary,E:1}Legendary{} Jokers may',
-                    'appear in the {C:attention}Shop',
-                    '{C:attention}-1{} Joker Slot'
+                    '{C:legendary,E:1}Legendarne{} jokery mogą',
+                    'się pojawić w {C:attention}sklepie',
+                    '{C:attention}-1{} slot na jokera'
                 },
                 unlock = {
-                    'Unlock a',
-                    '{C:legendary,E:1}Legendary{} Joker',
+                    'Odblokuj',
+                    '{C:legendary,E:1}legendarnego{} jokera',
                 }
             },
             b_aij_fabled_hidden = {
-                name = 'Fabled Deck',
+                name = 'Legendarna talia',
                 text = {},
                 unlock = {
-                    'Unlock a {C:legendary,E:1}Legendary{}',
-                    'Joker',
+                    'Odblokuj',
+                    '{C:legendary,E:1}legendarnego{} jokera',
                 }
             },
             b_aij_branching = {
-                name = 'Branching Deck',
+                name = 'Rozgałęziająca talia',
                 text = {
-                    'Skips offer a choice',
-                    'between {C:attention}3{} Tags',
+                    'Pominięcia oferują wybór',
+                    'między {C:attention}3{} znacznikami',
                 },
                 unlock = {
-                    'Skip at least {C:attention}5{}',
-                    'blinds in a run',
+                    'Pomiń chociaż {C:attention}5{}',
+                    'przeszkadzajek w podejściu',
                 }
             },
             b_aij_branching_hidden = {
-                name = 'Branching Deck',
+                name = 'Rozgałęziająca talia',
                 text = {},
                 unlock = {
-                    'Skip at least {C:attention}5{}',
-                    'blinds in a run',
+                    'Pomiń chociaż {C:attention}5{}',
+                    'przeszkadzajek w podejściu',
                 }
             },
             b_aij_patchwork = {
-                name = 'Patchwork Deck',
+                name = 'Talia z łatami',
                 text = {
-                    'All playing cards {C:attention}appear',
-                    'with a {C:attention}random{} suit patch'
+                    'Wszystkie karty do grania {C:attention}pojawiają się',
+                    'z {C:attention}losową{} kolorową łatą'
                 },
                 unlock = {
-                    'Have at least {C:attention}13',
-                    'cards with a suit',
-                    '{C:attention}patch{} at once'
+                    'Miej conajmniej {C:attention}13',
+                    'kart z kolorową',
+                    '{C:attention}łatą{} na raz'
                 }
             },
             b_aij_patchwork_hidden = {
                 name = 'Patchwork Deck',
                 text = {},
                 unlock = {
-                    'Have at least {C:attention}13',
-                    'cards with ?????',
-                    'at once'
+                    'Miej conajmniej {C:attention}13',
+                    'kart z ?????',
+                    'na raz'
                 }
             }
         },
@@ -524,7 +524,7 @@ return {
                 name = "The Celebration",
                 text = {
                     '+0.2X Base per unused',
-                    'hand/discard this Ante'
+                    'hand/discard this Ante'v_text and poker_hands
                 },
             },
             bl_aij_the_storm = {

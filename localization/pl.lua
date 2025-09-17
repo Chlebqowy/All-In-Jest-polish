@@ -152,7 +152,7 @@ return {
                 }
             },
             b_aij_patchwork = {
-                name = 'Talia z łatami',
+                name = 'Załatana talia',
                 text = {
                     'Wszystkie karty do grania {C:attention}pojawiają się',
                     'z {C:attention}losową{} kolorową łatą'
@@ -164,7 +164,7 @@ return {
                 }
             },
             b_aij_patchwork_hidden = {
-                name = 'Patchwork Deck',
+                name = 'Załatana talia',
                 text = {},
                 unlock = {
                     'Miej conajmniej {C:attention}13',
@@ -277,14 +277,14 @@ return {
                 },
             },
             sleeve_aij_patchwork = {
-                name = "Rękaw z łatami",
+                name = "Załatany rękaw",
                 text = {
                     'Wszystkie karty do grania {C:attention}pojawiają',
                     'się z {C:attention}losową{} łatą kolorową'
                 }
             },
             sleeve_aij_patchwork_alt = {
-                name = "Rękaw z łatami",
+                name = "Załatany rękaw",
                 text = {
                     'Wszystkie karty do grania {C:attention}pojawiają',
                     'się z {C:attention}2 losowymi{} łatami kolorowymi'

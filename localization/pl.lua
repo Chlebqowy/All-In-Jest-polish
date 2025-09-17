@@ -58,7 +58,7 @@ return {
         v_text = {
             -- Challenges
             ch_c_aij_challenge_key = {
-                'challenge text'
+                'tekst wyzwania'
             },
         },
         extra_joker_dictionary = {
@@ -102,7 +102,7 @@ return {
             k_aij_jest_chaotic_card = "Chaotyczne",
         },
         poker_hands = {
-            ['aij_Royal Flush'] = "Royal Flush",
+            ['aij_Royal Flush'] = "królewski poker",
         },
         poker_hand_descriptions = {
             ['aij_Royal Flush'] = {

@@ -262,32 +262,32 @@ return {
         },
         Sleeve = {
             sleeve_aij_fabled = {
-                name = "Fabled Sleeve",
+                name = "Legendarny rękaw",
                 text = {
-                    '{C:legendary,E:1}Legendary{} Jokers may',
-                    'appear in the {C:attention}Shop',
-                    '{C:attention}-1{} Joker Slot'
+                    '{C:legendary,E:1}Legendarne{} jokery mogą',
+                    'się pojawić w {C:attention}sklepie',
+                    '{C:attention}-1{} slot na jokera'
                 }
             },
             sleeve_aij_fabled_alt = {
-                name = "Fabled Sleeve",
+                name = "Legendarny rękaw",
                 text = {
-                    '{C:legendary,E:1}Legendary{} Jokers appear',
-                    'more {C:attention}frequently'
+                    '{C:legendary,E:1}Legendarne{} jokery pojawiają',
+                    'się {C:attention}częściej'
                 },
             },
             sleeve_aij_patchwork = {
-                name = "Patchwork Sleeve",
+                name = "Rękaw z łatami",
                 text = {
-                    'All playing cards {C:attention}appear',
-                    'with a {C:attention}random{} suit patch'
+                    'Wszystkie karty do grania {C:attention}pojawiają',
+                    'się z {C:attention}losową{} łatą kolorową'
                 }
             },
             sleeve_aij_patchwork_alt = {
-                name = "Patchwork Sleeve",
+                name = "Rękaw z łatami",
                 text = {
-                    'All playing cards {C:attention}appear',
-                    'with {C:attention}2 random{} suit patches'
+                    'Wszystkie karty do grania {C:attention}pojawiają',
+                    'się z {C:attention}2 losowymi{} łatami kolorowymi'
                 },
             },
         },

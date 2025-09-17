@@ -175,11 +175,11 @@ return {
         },
         Stake = All_in_Jest.config.blue_stake_rework and {
             stake_blue = {
-                name = "Blue Stake",
+                name = "Niebieska stawka",
                 text = {
-                    'Boss Blind on Ante',
-                    '{C:attention}4{} or {C:attention}5{} is a Pit Blind',
-                    '{s:0.8}Applies all previous Stakes'
+                    'Przeszkadzajka bossa na wejściu',
+                    '{C:attention}4{} i {C:attention}5{} to przeszkadzajka dolna',
+                    '{s:0.8}Działa na wszystkie poprzednie stawki'
                 }
             },
         } or {},

@@ -88,18 +88,18 @@ return {
         },
         labels = {
             -- Editions
-            aij_glimmer = "Glimmer",
-            aij_silver = "Silver",
-            aij_stellar = "Stellar",
+            aij_glimmer = "Migotające",
+            aij_silver = "Srebrne",
+            aij_stellar = "Gwiezdne",
             aij_aureate = "Aureate",
-            aij_torn = "Torn",
+            aij_torn = "Podarte",
             -- Stickers
-            aij_marked = "Marked",
+            aij_marked = "Zaznaczone",
             -- Seals
-            aij_smiley_seal = "Smiley Seal",
-            aij_melted_seal = "Melted Seal",
+            aij_smiley_seal = "Uśmieszkowa Pieczęć",
+            aij_melted_seal = "Stopiona Pieczęć",
             -- Other
-            k_aij_jest_chaotic_card = "Chaotic",
+            k_aij_jest_chaotic_card = "Chaotyczne",
         },
         poker_hands = {
             ['aij_Royal Flush'] = "Royal Flush",
